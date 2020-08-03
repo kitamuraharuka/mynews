@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 class NewsController extends Controller
 {
-    //
+    //作成画面
     public function add()
     {
         return view('admin.news.create');
